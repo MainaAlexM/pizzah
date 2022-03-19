@@ -1,3 +1,31 @@
+
 .navbar-toggler{
     background-color: grey;
+}
+.section1{
+    height: 100vh;
+    background-color: rgb(247, 233, 233);
+}
+/* .intro{
+    display: flex;
+} */
+
+.preview{
+    height: 5rem;
+    overflow: hidden;
+}
+#prev{
+    margin: 0 auto;
+}
+.card{
+    height: 100%;
+    margin: 2rem 0.3rem;
+}
+/* .card img{
+    height: 100%;
+} */
+/* .card-img-top{
+} */
+.card-body{
+    height: 8rem;
 }
