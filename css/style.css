@@ -2,21 +2,43 @@
 .navbar-toggler{
     background-color: grey;
 }
+.nav-item, navbar-brand{
+    margin: 0.2rem 3rem;
+    /* justify-content: space-between; */
+}
 .section1{
     height: 100vh;
-    background-color: rgb(247, 233, 233);
+    /* background-color: rgb(247, 233, 233); */
 }
-/* .intro{
+.intro{
     display: flex;
-} */
-
+    padding: 6em 3em 4rem;
+}
+.info{
+    padding-right: 2em;
+}
 .preview{
-    height: 5rem;
+    padding-left: 3em;
+}
+.order-btn{
+    margin: 0rem auto;
+    width: 10rem;
+}
+.preview{
+    height: 15rem;
     overflow: hidden;
 }
 #prev{
+    height: 100%;
     margin: 0 auto;
 }
+.service{
+    display: flex;
+}
+.sample{
+    padding: 0.4rem;
+}
+
 .card{
     height: 100%;
     margin: 2rem 0.3rem;
@@ -28,4 +50,11 @@
 } */
 .card-body{
     height: 8rem;
+}
+.spec{
+    display: flex;
+}
+label{
+    display: block;
+    width: 100%;
 }
