@@ -1,4 +1,8 @@
-
+body{
+    font-family: 'Hurricane', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
 .navbar-toggler{
     background-color: grey;
 }
@@ -8,25 +12,30 @@
 }
 .section1{
     height: 100vh;
-    /* background-color: rgb(247, 233, 233); */
+    background-image: url(../images/pizza-bgd.jpg);
+    background-size: 100%;
+    background-repeat: none;
+    color: rgb(255, 255, 255);
+}
+.section1 p{
+    font-size: larger;
 }
 .intro{
     display: flex;
-    padding: 6em 3em 4rem;
+    /* padding: 4em 3em; */
+    margin: 3rem;
 }
 .info{
     padding-right: 2em;
 }
 .preview{
-    padding-left: 3em;
+    padding-left: 4em;
+    height: 100%;
+    overflow: hidden;
 }
 .order-btn{
     margin: 0rem auto;
     width: 10rem;
-}
-.preview{
-    height: 15rem;
-    overflow: hidden;
 }
 #prev{
     height: 100%;
@@ -36,16 +45,41 @@
     display: flex;
 }
 .sample{
-    padding: 0.4rem;
+    margin: 5rem;
+    /* padding: 4rem; */
 }
-
+.sub{
+    height: 65vh;
+    background-color: burlywood;
+    /* background-image: url(../images/gluten-free5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    /* margin: 1rem auto 0rem; */
+    display: flex;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 0.2em;
+}
+.sub h4{
+    margin-top: 3rem;
+    padding: 5em 1em;
+    font-size: xx-large;
+}
+.sub img{
+    height: 80%;
+    padding: 2em;
+}
 .card{
     height: 100%;
     margin: 2rem 0.3rem;
+    border-radius: 0.6rem;
+    background-color: rgb(199, 159, 108);
+    grid-area: span;
 }
-/* .card img{
-    height: 100%;
-} */
+.card img{
+    padding: 0.2em;
+    border-radius: 0.8em;
+}
 /* .card-img-top{
 } */
 .card-body{
@@ -57,4 +91,19 @@
 label{
     display: block;
     width: 100%;
+}
+.section2 h1{
+    text-align: center;
+    padding: 0.8em auto 0em ;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.order h2{
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+label{
+    padding: 0.3rem;
 }
