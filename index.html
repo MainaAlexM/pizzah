@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="preview">
-                    <img id="prev" src="./images/preview-pizza.png" alt="delicious pizza">
+                    <!-- <img id="prev" src="./images/preview-pizza.png" alt="delicious pizza"> -->
                 </div>
 
             </div>
@@ -78,8 +78,15 @@
         </div>
             <!-- ----- End of section 1----- -->
 
+            <!-- Sub-sect1-2 -->
+
+            <div class="sub container">
+
+            </div>
+
             <!-- ----- Section 2 ----- -->
         <div class="section2 container pizza-cards">
+            <h1 id="Menu">Our Menu</h1>
 
             <div class="cards">
 
@@ -109,21 +116,21 @@
         
                     <div class="row">
                         <div class="card col-sm" style="width: 18rem;">
-                            <img src="./images/crispy2.jpg" class="card-img-top" alt="...">
+                            <img src="./images/crispy4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
             
                         <div class="col-sm card" style="width: 18rem;">
-                            <img src="./images/stuffed1.jpg" class="card-img-top" alt="...">
+                            <img src="./images/stuffed4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
             
                         <div class="col-sm card" style="width: 18rem;">
-                            <img src="./images/gluten-free1.jpg" class="card-img-top" alt="...">
+                            <img src="./images/gluten-free5.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -137,52 +144,43 @@
 
         <div class="order">
             <h2>Order With Us</h2>
-            <form action="">
-                <h4>Select Your Preference Here</h4>
 
-                <div class="form-row">
-                    <div class="col-7 pizza-spec spec">
-                        <label for="adding">Adding</label>
-                        <select class="form-control" placeholder="City">
-                            <option>Select Favorite Adding</option>
-                            <option>Plain</option>
-                            <option>Pizza + Crust</option>
-                            <option>Pizza + Topping</option>
-                            <option>Pizza + Crust + Topping</option>
-                        </select>
-                    </div>
-                    <div class="col">
-                        <label for="pizza">Pizza Taste</label>
-                        <select class="form-control" name="select" id="taste" required>
-                            <option value="default" id="default">Select Your Taste</option>
-                            <option value="crispy" id="crispy">Crispy</option>
-                            <option value="stuffed" id="stuffed">Stuffed</option>
-                            <option value="gluten-free" id="gluten-free">Gluten-free</option>
-                        </select>
-                    </div>
-
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Zip">
-                    </div>
-                </div>
-
-                <div class="pizza-spec spec">
-                    
-                    <label for="quantity">Quantity</label>
-                    <input type="number" min="0" value="1">
-                </div>
-
-                <div class="taste-spec spec">
-                    
-                    <select 
+            <form id="form-input">
+                <div class="form-group">
+                    <label for="pizza-size">Select Pizza Size</label>
+                    <select class="form-control" id="pizza-size">
+                        <option value="default" id="default">Choose Size</option>
+                        <option value="small">Small Size - Ksh 750</option>
+                        <option value="medium">Medium Size - Ksh 1000</option>
+                        <option value="large"> Large Size - Ksh 1300</option>
                     </select>
-
-                    <label for="quantity">Quantity</label>
-                    <input type="number" min="0" value="1">
                 </div>
+                <div class="form-group">
+                    <label for="pizza-crust">Choose your favorite crust</label>
+                    <select class="form-control" id="pizza-crust">
+                        <option value="default" id="default">Select Your Crust</option>
+                        <option value="stuffed">Stuffed - Ksh 150</option>
+                        <option value="crispy">Crispy - Ksh 100</option>
+                        <option value="gluten-f">Gluten-Free - Ksh 120</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pizza-crust">Choose your favorite crust</label>
+                    <select class="form-control" id="pizza-crust">
+                        <option value="default" id="default">Select a Topping</option>
+                        <option value="mushroom">Mushroom Ksh 80</option>
+                        <option value="tomato">Tomato ksh 70</option>
+                        <option value="pineapple">Pineapple Ksh 75</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="checkout" class="btn btn-success mt-3">Place Order</button>
 
             </form>
+
         </div>
+        <!-- ----- End of section-Order ----- -->
 
     </div>
     <!-- End of body container -->
