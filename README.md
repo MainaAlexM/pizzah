@@ -1,5 +1,5 @@
-# pizzah
-This is a pizza-Ordering Website customized to allow users browse the different varieties of pizza available, place an order and request for delivery.
+# Pizzah
+Pizza Street is a pizza-Ordering Website customized to allow users browse the different varieties of pizza available, place an order and request for delivery.
 
 ### Author
 The site was solely designed and developed by Alex Mathenge at Moringa school, to showcase knowledge and understanding in software development using html,css, javascript, and git.
