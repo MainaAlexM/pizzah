@@ -1,0 +1,153 @@
+body {
+	font-family: "Hurricane", cursive;
+	font-family: "Poppins", sans-serif;
+	font-family: "Raleway", sans-serif;
+}
+.navigation {
+	margin: 0 auto;
+	text-align: right;
+}
+.navbar-toggler {
+	/* background-color: rgba(255, 255, 255, 40%); */
+}
+.nav-item,
+navbar-brand {
+	margin: 0.2rem 3rem;
+	color: white;
+	/* justify-content: space-between; */
+}
+.navbar a {
+	color: white;
+}
+.section1 {
+	background-image: url(../images/pizza-bgd.jpg);
+	background-size: 100%;
+	background-repeat: none;
+	color: #ffffff;
+}
+.sample {
+	font-family: cursive;
+	font-size: larger;
+}
+.mid-sample {
+	color: black;
+	font-size: larger;
+}
+.section1 p {
+	font-size: larger;
+}
+.intro {
+	display: flex;
+	padding: 4em 3em;
+	margin: 3rem 3rem;
+}
+.info {
+	padding-right: 2em 2em 1em;
+}
+.preview {
+	padding-left: 4em;
+	height: 100%;
+	overflow: hidden;
+}
+.order-btn {
+	margin: 0rem auto;
+	width: 10rem;
+}
+#prev {
+	height: 100%;
+	margin: 0 auto;
+}
+.service {
+	display: flex;
+}
+.sample {
+	margin: 1rem 1em 0.5em;
+	padding: 3rem 2rem;
+}
+.sub {
+	height: 65vh;
+	background-color: #583423;
+	/* background-image: url(../images/gluten-free5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; */
+	/* margin: 1rem auto 0rem; */
+	display: flex;
+	font-family: cursive;
+	font-style: italic;
+	margin-top: 0.2em;
+}
+.sub h4 {
+	margin-top: 3rem;
+	padding: 5em 1em;
+	font-size: xx-large;
+	color: white;
+}
+.sub img {
+	height: 80%;
+	padding: 2em;
+}
+.title {
+	text-decoration: underline;
+}
+.card {
+	height: 100%;
+	margin: 2rem 0.3rem;
+	border-radius: 0.6rem;
+	background-color: rgb(199, 159, 108);
+	grid-area: span;
+}
+.card img {
+	padding: 0.2em;
+	border-radius: 0.8em;
+}
+/* .card-img-top{
+} */
+.card-body {
+	height: 8rem;
+}
+.spec {
+	display: flex;
+}
+label {
+	display: block;
+	width: 100%;
+}
+.section2 h1 {
+	text-align: center;
+	padding: 0.8em auto 0em;
+	margin-top: 0.6em;
+}
+.order {
+	width: 50%;
+	margin: 0 auto;
+}
+.order h2 {
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+label {
+	padding: 0.3rem;
+}
+.extra-toppings {
+	margin: 1.5rem;
+}
+.contact {
+	background-color: #583423;
+	margin-top: 2em;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	font-size: larger;
+}
+.footer {
+	margin-top: 2rem;
+	padding: 0.4rem 2rem;
+	background-color: #583423;
+	color: #ffffff;
+}
+.ftr {
+	padding: 1em 2em 0.3em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
